@@ -1,5 +1,5 @@
 package com.Tap.IoC1;
-
+import java.util.*;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -7,7 +7,6 @@ import com.Tap.IoC1.Impl.Java_Trainer;
 import com.Tap.IoC1.Impl.SQL_Trainer;
 import com.Tap.IoC1.Impl.Web_Trainer;
 import com.Tap.IoC1.interfaces.Trainer;
-
 public class App {
   public static void main(String[] args) 
   {
