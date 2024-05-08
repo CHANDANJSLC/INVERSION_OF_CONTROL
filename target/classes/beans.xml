@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    <bean id="jt" class="com.Tap.IoC1.Impl.Java_Trainer"></bean>
+    <bean id="st" class="com.Tap.IoC1.Impl.SQL_Trainer"></bean>
+    <bean id="wt" class="com.Tap.IoC1.Impl.Web_Trainer"></bean>
+    
+
+</beans>
